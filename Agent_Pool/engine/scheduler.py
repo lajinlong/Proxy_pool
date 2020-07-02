@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """调度器"""
-from log import app_logger
+from Agent_Pool.log import app_logger
 from engine.getproxy import Getproxies
 from engine.testerproxy import Tester
 from engine.webserver import app

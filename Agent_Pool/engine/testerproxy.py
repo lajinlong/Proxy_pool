@@ -2,9 +2,9 @@
 """测试代理有效性"""
 import aiohttp
 import asyncio
-from log import app_logger
+from Agent_Pool.log import app_logger
 from config.settings import TEST_URL, TEST_TIMEOUT, TEST_VALID_STATUS, TEST_BATCH
-from storages.save_to_redis import RedisClient
+from Agent_Pool.storages.save_to_redis import RedisClient
 from aiohttp import ClientProxyConnectionError, ServerDisconnectedError, ClientOSError, ClientHttpProxyError
 from asyncio import TimeoutError
 EXCEPTIONS = (

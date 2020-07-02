@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """爬虫启动器，获取代理"""
-from storages.save_to_redis import RedisClient
+from Agent_Pool.storages.save_to_redis import RedisClient
 from spider import __all__ as spider_classes
 from config.settings import PROXY_NUMBER_MAX
 

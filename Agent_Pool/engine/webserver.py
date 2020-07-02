@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Flask服务端"""
 from flask import Flask, g
-from storages.save_to_redis import RedisClient
+from Agent_Pool.storages.save_to_redis import RedisClient
 from config.settings import API_HOST, API_PORT, API_THREADED
 
 __all__ = ['app']
