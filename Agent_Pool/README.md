@@ -33,16 +33,16 @@
 
 访问`http://127.0.0.1:5000/`进入主页，如果显示'Welcome to Proxy Pool System'，证明成功启动。
 
-![pic](/docs/1.png)
+![pic](Agent_Pool/docs/1.png)
 
 访问`http://127.0.0.1:5000/random`可以获取一个可用代理。  
 
-![pic](/docs/3.png)
+![pic](Agent_Pool/docs/3.png)
 
 访问`http://127.0.0.1:5000/count`可以获取代理池中可用代理的数量。  
 
-![pic](/docs/2.png)
+![pic](Agent_Pool/docs/2.png)
 
 
 ## 文件结构
-![picture](/docs/4.png)
+![picture](Agent_Pool/docs/4.png)
